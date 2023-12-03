@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Font */
+@font-face{
+    font-family: "Riot";
+    src: url(../media/BeaufortforLOL-Bold.otf);
+}
+
+/* Nav */
+
+body{
+    background-image: url(../media/Jonia.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+.logo{
+    width: 80px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+div ul{
+    display: flex;
+    gap: 100px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 25px;
+}
+/*  Main index */
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+
+.jonia{
+    font-family: Riot;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #AF9155;
+}
+
+.frase{
+    font-family: Riot;
+    color: #AF9155;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 50px;
+   
+}
+
+.parrafo {
+    width: 50%; 
+    background-color: rgba(0, 0, 0, 0.452);
+    color: #AF9155;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+p{
+    letter-spacing: 2px;
+}
+
+/* Main de Campeones */
+
+.carousel-conteiner{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.carousel{
+    width: 1000px;
+    border: 2px solid black
+}
+
+.fondo{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+
+}
+
+@media screen and (max-width: 1000px){
+    .parrafo{
+        width: 65%;
+    }
+
+    div ul{
+        gap: 10px;
+    }
+}
+
+
+
