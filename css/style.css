@@ -80,7 +80,7 @@ p{
     letter-spacing: 2px;
 }
 
-/* Main de Campeones */
+/* Web Campeones */
 
 .carousel-conteiner{
     display: flex;
@@ -96,6 +96,68 @@ p{
 .fondo{
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
+}
+
+/* Web Fan Arts */
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-template: 
+        "img1 img1 img2 img2"
+        "img3 img3 img4 img4"
+        "img5 img5 img6 img6"
+        "img7 img7 img8 img8"
+        "img9 img9 img10 img10"
+        "img11 img11 img12 img12"
+    ;
+
+    gap: 1rem;
+    margin: 10px 30px 10px 30px;
+
+}
+
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
+}
+.img10{
+    grid-area: img10;
+}
+.img11{
+    grid-area: img11;
+}
+.img12{
+    grid-area: img12;
 }
 
 @media screen and (max-width: 1000px){
