@@ -11,14 +11,20 @@
 
 /* Nav */
 
-body{
+.fondo-principal{
     background-image: url(../media/Jonia.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-clip: content-box;
 }
-
+.fondo-guerra{
+    background-image: url(../media/image-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
 .logo{
     width: 80px;
 }
@@ -169,6 +175,103 @@ section img{
         gap: 10px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .imagenes{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(1, auto);
+        grid-template: 
+            "img1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 img4"
+            "img5 img5"
+            "img6 img6"
+            "img7 img7"
+            "img8 img8"
+            "img9 img9"
+            "img10 img10"
+            "img11 img11"
+            "img12 img12"
+        ;    
+        gap: 1rem;
+        
+    }
+
+    .img1{
+        grid-area: img1;
+    }
+    .img2{
+        grid-area: img2;
+    }
+    .img3{
+        grid-area: img3;
+    }
+    .img4{
+        grid-area: img4;
+    }
+    .img5{
+        grid-area: img5;
+    }
+    .img6{
+        grid-area: img6;
+    }
+    .img7{
+        grid-area: img7;
+    }
+    .img8{
+        grid-area: img8;
+    }
+    .img9{
+        grid-area: img9;
+    }
+    .img10{
+        grid-area: img10;
+    }
+    .img11{
+        grid-area: img11;
+    }
+    .img12{
+        grid-area: img12;
+    }
+}
+
+/* Web Guerra */
+.caja-nuno {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+
+}
+
+.imagen-noxus {
+    max-width: 700px; 
+    height: auto;
+    border: 2px solid black;
+}
+.imagen-noxus img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.caja-textouno {
+    flex: 1; 
+    padding: 0 20px;
+    text-align: center;
+}
+
+.texto-noxus{
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+
 
 
 
