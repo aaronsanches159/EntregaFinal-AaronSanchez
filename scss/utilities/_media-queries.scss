@@ -1,0 +1,91 @@
+@media screen and (max-width: 1000px){
+    .main-guerra{
+        .caja-nuno{
+                @include flex(column, center, center);
+
+        }
+            .caja-nunon{
+                @include flex(column-reverse, center, center);
+                .parrafo{
+                    width: 65%;
+                }
+        }
+            .imagen-noxus{
+                max-width: 100%; 
+                height: auto;
+                border: 2px solid black; 
+        } 
+            .parrafo{
+                width: 65%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .imagenes{
+        @include grid(1 auto, 1 auto,       "img1 img1"
+                                            "img2 img2"
+                                            "img3 img3"
+                                            "img4 img4"
+                                            "img5 img5"
+                                            "img6 img6"
+                                            "img7 img7"
+                                            "img8 img8"
+                                            "img9 img9"
+                                            "img10 img10"
+                                            "img11 img11"
+                                            "img12 img12" );
+    gap: 1rem; 
+}
+
+    .img1{
+    grid-area: img1;
+    }
+    .img2{
+    grid-area: img2;
+    }
+    .img3{
+    grid-area: img3;
+    }
+    .img4{
+    grid-area: img4;
+    }
+    .img5{
+    grid-area: img5;
+    }
+    .img6{
+    grid-area: img6;
+    }
+    .img7{
+    grid-area: img7;
+    }
+    .img8{
+    grid-area: img8;
+    }
+    .img9{
+    grid-area: img9;
+    }
+    .img10{
+    grid-area: img10;
+    }
+    .img11{
+    grid-area: img11;
+    }
+    .img12{
+    grid-area: img12;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .main-video{
+        .videos{
+            .textvideo{
+                font-size: 60px;
+            }
+        }
+        .espacio-video {
+            height: auto; 
+        }
+    }
+}
+

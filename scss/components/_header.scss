@@ -1,0 +1,19 @@
+header{
+    .logo{
+        width: 80px;
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.336);
+        .navbar-collapse{
+        @include flex(row, center, center);
+        ul{
+            display: flex;
+            gap: 100px;
+                .nav-link{
+                    color: white;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

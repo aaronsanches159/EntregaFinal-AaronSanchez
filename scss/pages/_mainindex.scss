@@ -1,0 +1,30 @@
+.main-index{
+    .presentacion{
+        @include flex(column, center, center);
+        .jonia{
+             @include flex(row, center, center);
+            font-family: Riot;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 100px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            color: nth($list: $colores, $n: 1);
+        }
+        .frase{
+            font-family: Riot;
+            color: nth($list: $colores, $n: 1);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            margin-bottom: 50px;}
+    }
+    .parrafo{
+        width: 50%; 
+        background-color: rgba(0, 0, 0, 0.452);
+        color: nth($list: $colores, $n: 1);
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        font-size: 22px;
+        text-align: center;
+        p{
+            letter-spacing: 2px;
+        }
+    }
+}

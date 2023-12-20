@@ -1,0 +1,20 @@
+@mixin flex($flex-direction, $justify-content, $align-items){
+    display: flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin grid($grid-column, $grid-row, $grid-area){
+    display: grid;
+    grid-template-columns: $grid-column;
+    grid-template-rows: $grid-row;
+    grid-template-areas: $grid-area;
+}
+
+@mixin backgroud($backgroud_repeat, $background-size, $background-attachment, $background-clip){
+    background-repeat: $backgroud_repeat;
+    background-size: $background-size;
+    background-attachment: $background-attachment;
+    background-clip: $background-clip;
+}

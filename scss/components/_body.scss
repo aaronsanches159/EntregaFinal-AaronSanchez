@@ -1,0 +1,8 @@
+.fondo-principal{
+    background-image: $fondo-uno;
+    @include backgroud(no-repeat, cover, fixed, content-box);
+}
+.fondo-guerra{
+    background-image: $fondo-dos;
+    @include backgroud(no-repeat, cover, fixed, content-box);
+}

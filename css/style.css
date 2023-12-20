@@ -1,17 +1,17 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 /* Font */
-@font-face{
+/* @font-face{
     font-family: "Riot";
     src: url(../media/BeaufortforLOL-Bold.otf);
-}
+} */
 
 /* Nav */
 
-.fondo-principal{
+/* .fondo-principal{
     background-image: url(../media/Jonia.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ div ul{
     font-size: 25px;
 }
 /*  Main index */
-.presentacion {
+/* .presentacion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,13 +108,13 @@ footer{
 
 /* Web Campeones */
 
-.carousel-conteiner{
+/* .carousel-conteiner{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-}
+} */
 
-.carousel{
+/* .carousel{
     width: 1000px;
     border: 2px solid black
 }
@@ -122,10 +122,10 @@ footer{
 .fondo{
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 
-}
+} */
 
 /* Web Fan Arts */
-.imagenes{
+/* .imagenes{
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(4, auto);
@@ -185,10 +185,10 @@ section img{
 }
 .img12{
     grid-area: img12;
-}
+} */
 
 /* Web Guerra */
-.caja-nuno {
+ /* .caja-nuno {
     display: flex;
     flex-direction: row; 
     align-items: center; 
@@ -231,12 +231,12 @@ section img{
     font-size: 15px;
     color: white;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
+}  */
 
 /* Web Videos */
 
 
-.videos{
+/* .videos{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,19 +268,16 @@ section img{
 iframe {
     border: 1px solid black;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.959);
-} 
+}  */
 
 
 /* medias */
 
-@media screen and (max-width: 1000px){
+ /* @media screen and (max-width: 1000px){
     .parrafo{
         width: 65%;
     }
 
-    div ul{
-        gap: 10px;
-    }
     .caja-nuno{
         display: flex;
         flex-direction: column;
@@ -296,9 +293,9 @@ iframe {
         height: auto;
         border: 2px solid black;
     }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .imagenes{
         grid-template-columns: repeat(1, auto);
         grid-template-rows: repeat(1, auto);
@@ -358,10 +355,10 @@ iframe {
     }
 
 
-}
+} */
 
 /* Media query para dispositivos móviles */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .espacio-video {
         height: auto; 
     }
@@ -369,7 +366,4 @@ iframe {
     .videos h2 {
         font-size: 1.5em;
     }
-}
-
-
-
+}  */

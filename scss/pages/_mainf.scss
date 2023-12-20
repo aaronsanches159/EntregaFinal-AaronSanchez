@@ -1,0 +1,89 @@
+.imagenes{
+    @include grid(4 auto, 4 auto,   "img1 img1 img2 img2"
+                                    "img3 img3 img4 img4"
+                                    "img5 img5 img6 img6"
+                                    "img7 img7 img8 img8"
+                                    "img9 img9 img10 img10"
+                                    "img11 img11 img12 img12");
+    gap: 1rem;
+    margin: 10px 30px 10px 30px;
+    padding: 50PX;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .img1{
+        grid-area: img1;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+
+    }
+    .img2{
+        grid-area: img2;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img3{
+        grid-area: img3;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img4{
+        grid-area: img4;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img5{
+        grid-area: img5;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img6{
+        grid-area: img6;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img7{
+        grid-area: img7;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img8{
+        grid-area: img8;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img9{
+        grid-area: img9;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+        -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img10{
+        grid-area: img10;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img11{
+        grid-area: img11;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img12{
+        grid-area: img12;
+        box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+-moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+}

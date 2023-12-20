@@ -1,0 +1,35 @@
+.main-guerra{
+    .caja-nuno{
+		@include flex(row, center, center);
+		margin: 150px;
+		margin-left: 100px; 
+		margin-right: 100px; 
+		margin-bottom: 150px; 
+}
+    .caja-nunon{
+		@include flex(row, center, center);
+		margin: 150px;
+		margin-left: 100px;
+		margin-right: 100px; 
+		margin-bottom: 150px; 
+}
+	.imagen-noxus{
+	max-width: 50%; 
+	height: auto; 
+	border: 2px solid black; 
+} 
+	.imagen{ 
+    width: 100%; 
+    height: 100%;
+}
+	.caja-textouno{
+	flex: 1;
+	padding: 20px;
+	text-align: center; 
+    }   
+    .texto-noxus{
+	font-size: 15px; 
+	color:  $color-primario; 
+	text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    }
+}
