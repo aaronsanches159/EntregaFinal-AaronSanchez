@@ -1,6 +1,6 @@
 header{
     .logo{
-        width: 80px;
+        width: 100px;
     }
     .navbar{
         background-color: rgba(0, 0, 0, 0.336);
@@ -12,6 +12,13 @@ header{
                 .nav-link{
                     color: white;
                     font-size: 25px;
+                }
+                a{
+                    &:hover{
+                        color: #102F2B;    
+                        transform: translateY(-5%);
+                        transition: .4s;
+                    }
                 }
             }
         }

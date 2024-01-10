@@ -9,8 +9,8 @@
     margin: 10px 30px 10px 30px;
     padding: 50PX;
     img{
-        height: 100%;
-        width: 100%;
+        height: 95%;
+        width: 95%;
         object-fit: cover;
     }
     .img1{
@@ -18,7 +18,9 @@
         box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
-
+    }
+    .img1:hover{
+        transform: scale(1.1);
     }
     .img2{
         grid-area: img2;
@@ -26,11 +28,17 @@
         -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
     }
+    .img2:hover{
+        transform: scale(1.1);
+    }
     .img3{
         grid-area: img3;
         box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img3:hover{
+        transform: scale(1.1);
     }
     .img4{
         grid-area: img4;
@@ -38,11 +46,17 @@
         -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
     }
+    .img4:hover{
+        transform: scale(1.1);
+    }
     .img5{
         grid-area: img5;
         box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img5:hover{
+        transform: scale(1.1);
     }
     .img6{
         grid-area: img6;
@@ -50,11 +64,17 @@
         -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
     }
+    .img6:hover{
+        transform: scale(1.1);
+    }
     .img7{
         grid-area: img7;
         box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img7:hover{
+        transform: scale(1.1);
     }
     .img8{
         grid-area: img8;
@@ -62,11 +82,17 @@
 -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
     }
+    .img8:hover{
+        transform: scale(1.1);
+    }
     .img9{
         grid-area: img9;
         box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
         -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img9:hover{
+        transform: scale(1.1);
     }
     .img10{
         grid-area: img10;
@@ -74,16 +100,25 @@
 -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
     }
+    .img10:hover{
+        transform: scale(1.1);
+    }
     .img11{
         grid-area: img11;
         box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
     }
+    .img11:hover{
+        transform: scale(1.1);
+    }
     .img12{
         grid-area: img12;
         box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -webkit-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
 -moz-box-shadow: 12px 12px 7px -5px rgba(0,0,0,0.7);
+    }
+    .img12:hover{
+        transform: scale(1.1);
     }
 }

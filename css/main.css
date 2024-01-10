@@ -9,7 +9,7 @@
   src: url(../media/BeaufortforLOL-Bold.otf);
 }
 header .logo {
-  width: 80px;
+  width: 100px;
 }
 header .navbar {
   background-color: rgba(0, 0, 0, 0.336);
@@ -27,6 +27,11 @@ header .navbar .navbar-collapse ul {
 header .navbar .navbar-collapse ul .nav-link {
   color: white;
   font-size: 25px;
+}
+header .navbar .navbar-collapse ul a:hover {
+  color: #102F2B;
+  transform: translateY(-5%);
+  transition: 0.4s;
 }
 
 footer {
@@ -106,10 +111,10 @@ footer .footer .contenido .icons {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .main-campeones .carousel-conteiner .carousel {
-  width: 1000px;
+  width: 1200px;
   border: 2px solid black;
 }
 .main-campeones .carousel-conteiner .carousel .fondo {
@@ -126,8 +131,8 @@ footer .footer .contenido .icons {
   padding: 50PX;
 }
 .imagenes img {
-  height: 100%;
-  width: 100%;
+  height: 95%;
+  width: 95%;
   object-fit: cover;
 }
 .imagenes .img1 {
@@ -136,11 +141,17 @@ footer .footer .contenido .icons {
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
 }
+.imagenes .img1:hover {
+  transform: scale(1.1);
+}
 .imagenes .img2 {
   grid-area: img2;
   box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
+}
+.imagenes .img2:hover {
+  transform: scale(1.1);
 }
 .imagenes .img3 {
   grid-area: img3;
@@ -148,11 +159,17 @@ footer .footer .contenido .icons {
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
 }
+.imagenes .img3:hover {
+  transform: scale(1.1);
+}
 .imagenes .img4 {
   grid-area: img4;
   box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
+}
+.imagenes .img4:hover {
+  transform: scale(1.1);
 }
 .imagenes .img5 {
   grid-area: img5;
@@ -160,11 +177,17 @@ footer .footer .contenido .icons {
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
 }
+.imagenes .img5:hover {
+  transform: scale(1.1);
+}
 .imagenes .img6 {
   grid-area: img6;
   box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
+}
+.imagenes .img6:hover {
+  transform: scale(1.1);
 }
 .imagenes .img7 {
   grid-area: img7;
@@ -172,11 +195,17 @@ footer .footer .contenido .icons {
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
 }
+.imagenes .img7:hover {
+  transform: scale(1.1);
+}
 .imagenes .img8 {
   grid-area: img8;
   box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
+}
+.imagenes .img8:hover {
+  transform: scale(1.1);
 }
 .imagenes .img9 {
   grid-area: img9;
@@ -184,11 +213,17 @@ footer .footer .contenido .icons {
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
 }
+.imagenes .img9:hover {
+  transform: scale(1.1);
+}
 .imagenes .img10 {
   grid-area: img10;
   box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
+}
+.imagenes .img10:hover {
+  transform: scale(1.1);
 }
 .imagenes .img11 {
   grid-area: img11;
@@ -196,11 +231,17 @@ footer .footer .contenido .icons {
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
 }
+.imagenes .img11:hover {
+  transform: scale(1.1);
+}
 .imagenes .img12 {
   grid-area: img12;
   box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: 12px 12px 7px -5px rgba(0, 0, 0, 0.7);
+}
+.imagenes .img12:hover {
+  transform: scale(1.1);
 }
 
 .main-guerra .caja-nuno {
@@ -348,6 +389,11 @@ footer .footer .contenido .icons {
   .img12 {
     grid-area: img12;
   }
+  .frase {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 550px) {
   .main-video .videos .textvideo {
@@ -355,6 +401,9 @@ footer .footer .contenido .icons {
   }
   .main-video .espacio-video {
     height: auto;
+  }
+  .frase {
+    text-align: center;
   }
 }
 

@@ -74,6 +74,12 @@
     .img12{
     grid-area: img12;
     }
+
+    .frase{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -87,5 +93,7 @@
             height: auto; 
         }
     }
+    .frase{
+        text-align: center;
+    }
 }
-
