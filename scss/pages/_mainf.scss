@@ -5,12 +5,13 @@
                                     "img7 img7 img8 img8"
                                     "img9 img9 img10 img10"
                                     "img11 img11 img12 img12");
-    gap: 1rem;
+    gap: 5rem;
     margin: 10px 30px 10px 30px;
-    padding: 50PX;
+    padding: 50px;
+
     img{
-        height: 95%;
-        width: 95%;
+        height: 100%;
+        width: 100%;
         object-fit: cover;
     }
     .img1{

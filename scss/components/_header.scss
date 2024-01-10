@@ -1,14 +1,16 @@
 header{
     .logo{
         width: 100px;
+        height: 100px;
     }
     .navbar{
         background-color: rgba(0, 0, 0, 0.336);
-        .navbar-collapse{
-        @include flex(row, center, center);
-        ul{
+        .navbar-nav{
             display: flex;
+            justify-content: center;
+            align-items: center;
             gap: 100px;
+            width: 100%;
                 .nav-link{
                     color: white;
                     font-size: 25px;
@@ -18,7 +20,6 @@ header{
                         color: #102F2B;    
                         transform: translateY(-5%);
                         transition: .4s;
-                    }
                 }
             }
         }

@@ -15,9 +15,10 @@
             color: nth($list: $colores, $n: 1);
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
             margin-bottom: 50px;}
+            text-align: center;
     }
     .parrafo{
-        width: 50%; 
+        width: 90%; 
         background-color: rgba(0, 0, 0, 0.452);
         color: nth($list: $colores, $n: 1);
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
