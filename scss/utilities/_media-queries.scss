@@ -1,5 +1,7 @@
+    // MEDIAQUERIES
 @media screen and (max-width: 1000px){
     .main-guerra{
+        // Encaje en columna del main guerra
         .caja-nuno{
                 @include flex(column, center, center);
 
@@ -22,6 +24,7 @@
 }
 
 @media screen and (max-width: 768px){
+    // grid para ajustar las imagenes y texto
     .imagenes{
         @include grid(1 auto, 1 auto,       "img1 img1"
                                             "img2 img2"
@@ -45,6 +48,7 @@
 }
 
 @media screen and (max-width: 550px){
+
     .main-video{
         .videos{
             .textvideo{
@@ -58,6 +62,8 @@
     .frase{
         text-align: center;
     }
+
+    // ajuste para dispositivos movile
     .imagenes{
             @include grid(1 auto, 1 auto,       "img1 img1"
                                                 "img2 img2"

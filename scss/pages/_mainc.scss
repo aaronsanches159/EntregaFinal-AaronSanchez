@@ -1,12 +1,23 @@
+// HTML CAMPEONES
 .main-campeones{
-    .carousel-conteiner{
-        @include flex(row,  center, center);
-        margin-top: 90px;       
-        .carousel{
-            width: 1200px;
-            border: 2px solid black;
-            .fondo{
-                text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        .jonia{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 50px;
+            font-weight: 100px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            color: nth($list: $colores, $n: 1);
+        }  
+     
+        .carousel-conteiner{
+             @include flex(row,  center, center);
+             margin-top: 50px;       
+             .carousel{
+                 width: 1200px;
+                border: 2px solid black;
+                 .fondo{
+                     text-shadow: 2px 2px 4px rgb(0, 0, 0);
             }
         }
     }

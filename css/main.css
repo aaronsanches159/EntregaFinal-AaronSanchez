@@ -27,7 +27,7 @@ header .navbar .navbar-nav .nav-link {
   font-size: 25px;
 }
 header .navbar .navbar-nav a:hover {
-  color: #102F2B;
+  color: #000000;
   transform: translateY(-5%);
   transition: 0.4s;
 }
@@ -112,12 +112,21 @@ footer .footer .contenido .icons {
   letter-spacing: 2px;
 }
 
+.main-campeones .jonia {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: #AF9155;
+}
 .main-campeones .carousel-conteiner {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 50px;
 }
 .main-campeones .carousel-conteiner .carousel {
   width: 1200px;
@@ -250,6 +259,14 @@ footer .footer .contenido .icons {
   transform: scale(1.1);
 }
 
+.main-guerra .jonia {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  color: #8d2d1c;
+}
 .main-guerra .caja-nuno {
   display: flex;
   flex-direction: row;
